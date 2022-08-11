@@ -10,7 +10,7 @@ app = Flask(__name__)
 camera = cv2.VideoCapture(0)
 face_cascade = cv2.CascadeClassifier()
 text = ""
-model = tf.keras.models.load_model("C:/Users/adonn/Downloads/model/model")
+model = tf.keras.models.load_model("model")
 i = 0
 list = []
 
